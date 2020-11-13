@@ -21,12 +21,12 @@ describe('Person', () => {
   });
 
   test('should correctly return persons age on mars.', () => {
-    expect(resuableHuman.marsYears()).toEqual(18)
+    expect(resuableHuman.marsYears()).toEqual(5)
   });
 
-  //test('should correctly return person age on mars' , () => {
-   // expect(resuableHuman.jupYears()).toEqual(118)
-  //});
+  test('should correctly return person age on mars' , () => {
+    expect(resuableHuman.jupYears()).toEqual(18)
+  });
 
   //test('should correctly return life expectancy' , () => {
    // expect (resuableHuman.lifeExpect()).toEqual(81)

@@ -23,9 +23,9 @@ export class Person {
     return Math.floor(this.age / 1.88);
   }
 
-  //jupYears() {
-    //return Math.floor(this.age / 11.86);
-  //}
+  jupYears() {
+    return Math.floor(this.age / 11.86);
+  }
    
  /// mercLife() {
     //return Math.floor((this.lifeExpect() - this.age) / .24);

@@ -24,8 +24,8 @@ describe('Person', () => {
     expect(resuableHuman.marsYears()).toEqual(5)
   });
 
-  test('should correctly return person age on mars' , () => {
-    expect(resuableHuman.jupYears()).toEqual(18)
+  test('should correctly return person age on jupiter' , () => {
+    expect(resuableHuman.jupYears()).toEqual(0)
   });
 
   //test('should correctly return life expectancy' , () => {

@@ -20,7 +20,7 @@ describe('Person', () => {
    expect(resuableHuman.venYears()).toEqual(6)
   });
 
-  //test('should correctly return persons age on mars.', () => {
-   // expect(resuableHuman.marsYears()).toEqual(18.8)
-  //});
+  test('should correctly return persons age on mars.', () => {
+    expect(resuableHuman.marsYears()).toEqual(18.8)
+  });
 });

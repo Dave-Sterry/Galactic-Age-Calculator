@@ -36,6 +36,10 @@ export class Person {
   }
 
   marsLife() {
-    return Math.floor((this.lifeExpect() -this.age) /1.88);
+    return Math.floor((this.lifeExpect() - this.age) /1.88);
+  }
+
+  jupLife() {
+    return Math.floor((this.lifeExpect() - this.age) / 11.86);
   }
 }

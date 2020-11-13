@@ -60,6 +60,6 @@ describe('Person', () => {
 
 test('should correctly return users years past life expectancy' , () =>{
   let oldJim = new Person (78,"male");
-  expect(oldJim.beyondLife()).toEqual();
+  expect(oldJim.beyondLife()).toEqual(2);
 })
 });

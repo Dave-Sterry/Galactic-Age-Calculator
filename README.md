@@ -1,11 +1,11 @@
-# TITLE 
+# Super Galactic Age Calculator 
 <img src="https://github.com/Dave-Sterry.png" width="200px" height="auto">
 
 ### A website by David Sterry updated on 11/6/2020
 
-## Name
+## Super Galactic Age Calculator
 
-_description_
+_This website will take a users inputted age and return how old the would be on 4 different planets. Mercury, Venus, Mars, and Jupiter. It also determines how long they have left to leave on each planet according to their life expectancy_
 
 The site can be viewed [here](insert link)
 
@@ -31,8 +31,21 @@ The site can be viewed [here](insert link)
 ## Specs
 | Test | Input | Output |
 |:-------------|:-------------------------| :--------------|
-| describe  |||
-| Test | Input | output |
+| Mercury Age Calculation |||  
+| Should correctly calculate age on Mercury | 5yrs | "You are 1.2 years on on mercury" |  
+| Venus Age Calculation |||  
+|Should correctly calculate age on Venus | 5yrs | "You are 3.1 years old on Venus" |  
+| Mars Age Calculation |||
+|Should correctly calculate age on Mars | 5yrs | "You are 9.4 years old on Mars" |  
+| Venus Age Calculation |||
+|Should correctly calculate age on Venus | 5yrs | "You are 3.1 years old on Venus" |  
+| Jupiter Age Calculation |||
+|Should correctly calculate age on Jupiter | 5yrs | "You are 59.3 years old on Jupiter |  
+| Life Expectancy Calculation |||
+| Should return users life expectancy on a give planet | 5 yrs, Mercury | "You have 73.8 years left to live" |
+| Should return amount lived past life expectancy | 20 years, Jupiter | "You lived 162.2 years past your life expectancy |
+
+
 
 
 

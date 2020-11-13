@@ -4,10 +4,11 @@ describe('Person', () => {
   let resuableHuman;
 
   beforeEach(() => {
-    resuableHuman = new Person(10,"female")
+    resuableHuman = new Person("jim",10,"female")
   })
   
   test('should correctly return persons age and gender.', () => {
+    expect(resuableHuman.name).toEqual("")
     expect(resuableHuman.age).toEqual(10);
     expect(resuableHuman.gender).toEqual("female")
   });
@@ -33,7 +34,7 @@ describe('Person', () => {
   });
 
   test('should correctly return life expectancy for male' , () => {
-    let testHuman = new Person(10, "male");
+    let testHuman = new Person("jim" 10, "male");
     expect(testHuman.lifeExpect()).toEqual(76);
   })
 
@@ -59,7 +60,7 @@ describe('Person', () => {
  });
 
 test('should correctly return users years past life expectancy' , () =>{
-  let oldJim = new Person (78,"male");
+  let oldJim = new Person ("jim" 78,"male");
   expect(oldJim.beyondLife()).toEqual(2);
 })
 });

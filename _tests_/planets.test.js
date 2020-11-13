@@ -28,9 +28,9 @@ describe('Person', () => {
     expect(resuableHuman.jupYears()).toEqual(0)
   });
 
-  //test('should correctly return life expectancy' , () => {
-   // expect (resuableHuman.lifeExpect()).toEqual(81)
-  //});
+  test('should correctly return life expectancy' , () => {
+    expect (resuableHuman.lifeExpect()).toEqual(81)
+  });
 
   //test('should correctly return users life expectancy on mercury.' , //() => {
    // expect (resuableHuman.mercLife()).toEqual(78)

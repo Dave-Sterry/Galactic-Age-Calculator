@@ -30,4 +30,8 @@ export class Person {
   mercLife() {
     return Math.floor((this.lifeExpect() - this.age) / .24);
   }
+
+  venLife() {
+    return Math.floor((this.lifeExpect() - this.age) / .62);
+  }
 }

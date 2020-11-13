@@ -32,6 +32,11 @@ describe('Person', () => {
     expect (resuableHuman.lifeExpect()).toEqual(81)
   });
 
+  test('should correctly return life expectancy for male' , () => {
+    let testHuman = new Person(10, "male");
+    expect(testHuman.lifeExpect()).toEqual(76);
+  })
+
   test('should correctly return users life expectancy on mercury.' , () => {
     expect (resuableHuman.mercLife()).toEqual(295)
  });

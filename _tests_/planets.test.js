@@ -37,6 +37,10 @@ describe('Person', () => {
  });
 
  test('should correctly return users life expectancy on venus.', () => {
-   expect(resuableHuman.venLife()).toEqual();
+   expect(resuableHuman.venLife()).toEqual(114);
  });
+
+ test('should correctly return users life expectancy on mars' , () => {
+   expect (resuableHuman.marsLife()).toEqual();
+ })
 });

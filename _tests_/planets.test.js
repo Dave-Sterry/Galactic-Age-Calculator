@@ -51,5 +51,10 @@ describe('Person', () => {
 
  test('should correctly return users life expectancy on jupiter.' , () => {
    expect(resuableHuman.jupLife()).toEqual(5); 
+ });
+
+ test('should correctly return users years past life expectancy', () =>
+ {
+   expect(resuableHuman.beyondLife()).toEqual();
  })
 });

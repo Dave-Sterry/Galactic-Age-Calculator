@@ -4,6 +4,15 @@ export class Person {
     this.gender = gender;
   }
   mercYears() {
-    return (this.age * .24);
+    return Math.floor(this.age * .24);
   }
+
+  //venYears() {
+    //return (this.age * .62);
+ // }
+
+  //marsYears() {
+   // return (this.age * 1.88);
+  //}
+  
 }

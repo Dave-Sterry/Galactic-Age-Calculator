@@ -52,4 +52,4 @@ export class Person {
   jupLife() {
     return Math.floor((this.lifeExpect() - this.age) / 11.86);
   }
-}
+};

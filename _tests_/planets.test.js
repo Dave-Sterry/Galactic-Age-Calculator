@@ -13,6 +13,6 @@ describe('Person', () => {
   });
 
   test('should correctly return persons age on mercury.', () => {
-    expect(resuableHuman.mercyears).toEqual(1.2)
+    expect(resuableHuman.mercYears()).toEqual(2.4)
   })
 });

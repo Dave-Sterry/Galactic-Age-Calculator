@@ -3,4 +3,7 @@ export class Person {
     this.age = age;
     this.gender = gender;
   }
+  mercYears() {
+    return (this.age * .24);
+  }
 }

@@ -32,7 +32,7 @@ describe('Person', () => {
     expect (resuableHuman.lifeExpect()).toEqual(81)
   });
 
-  //test('should correctly return users life expectancy on mercury.' , //() => {
-   // expect (resuableHuman.mercLife()).toEqual(78)
- // })
+  test('should correctly return users life expectancy on mercury.' , () => {
+    expect (resuableHuman.mercLife()).toEqual(78)
+ })
 });

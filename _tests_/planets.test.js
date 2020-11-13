@@ -29,6 +29,6 @@ describe('Person', () => {
   });
 
   test('should correctly return life expectancy' , () => {
-    expect (resuableHuman.lifeExpect()).toEqual()
+    expect (resuableHuman.lifeExpect()).toEqual(81)
   });
 });

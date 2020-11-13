@@ -3,6 +3,14 @@ export class Person {
     this.age = age;
     this.gender = gender;
   }
+
+  lifeExpect() {
+    if (this.gender === "male"){
+      return 76;
+    } else if (this.gender === "female"){
+      return 81;
+    }
+  }
   mercYears() {
     return Math.floor(this.age * .24);
   }

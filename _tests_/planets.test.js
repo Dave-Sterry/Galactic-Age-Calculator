@@ -1,5 +1,4 @@
-import { TestScheduler } from 'jest';
-import Person from './..src/planets.js';
+import { Person } from './../src/planets.js';
 
 describe('Person', () => {
   

@@ -53,8 +53,13 @@ describe('Person', () => {
    expect(resuableHuman.jupLife()).toEqual(5); 
  });
 
- test('should correctly return users years past life expectancy', () =>
+ test('should correctly return users years past or left expectancy', () =>
  {
    expect(resuableHuman.beyondLife()).toEqual(71);
- })
+ });
+
+test('should correctly return users years past life expectancy' , () =>{
+  let oldJim = new Person (78,"male");
+  expect(oldJim.beyondLife()).toEqual();
+})
 });

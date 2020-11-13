@@ -34,5 +34,9 @@ describe('Person', () => {
 
   test('should correctly return users life expectancy on mercury.' , () => {
     expect (resuableHuman.mercLife()).toEqual(295)
- })
+ });
+
+ test('should correctly return users life expectancy on venus.', () => {
+   expect(resuableHuman.venLife()).toEqual();
+ });
 });

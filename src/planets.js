@@ -14,5 +14,9 @@ export class Person {
   marsYears() {
     return Math.floor(this.age * 1.88);
   }
-  
+
+  jupYears() {
+    return Math.floor(this.age * 11.86);
+  }
+   
 }

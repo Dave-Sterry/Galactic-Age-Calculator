@@ -25,6 +25,6 @@ describe('Person', () => {
   });
 
   test('should correctly return person age on mars' , () => {
-    expect(resuableHuman.jupYears()).toEqual(2)
+    expect(resuableHuman.jupYears()).toEqual(118)
   })
 });

@@ -15,7 +15,7 @@ export class Person {
   
   beyondLife() {
     if (this.age > this.lifeExpect()){
-      return (this.age - this.lifeExpect());
+      return (`Hey ${this.name} you are ${this.age - this.lifeExpect()} years past your life expectancy, nice work!`);
       } else if (this.age < this.lifeExpect()){
         return (this.lifeExpect() - this.age);
       }

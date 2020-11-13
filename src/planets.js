@@ -7,10 +7,19 @@ export class Person {
   lifeExpect() {
     if (this.gender === "male"){
       return 76;
-    } else if (this.gender === "female"){
+    } else if (this.gender === "female") {
       return 81;
     }
   }
+  
+  beyondLife() {
+    if (this.age > this.lifeExpect()){
+      return (this.age - this.lifeExpect());
+      } else if (this.age < this.lifeExpect()){
+        return (this.lifeExpect() - this.age);
+      }
+    }
+
   mercYears() {
     return Math.floor(this.age /.24);
   }

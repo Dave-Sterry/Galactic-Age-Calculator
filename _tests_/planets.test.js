@@ -19,4 +19,8 @@ describe('Person', () => {
   test('should correctly return persons age on venus.', () => {
     expect(resuableHuman.venYears()).toEqual(6.2)
   });
+
+  test('should correctly return persons age on mars.', () => {
+    expect(resuableHuman.marYears()).toEqual(6.2)
+  });
 });

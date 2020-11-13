@@ -7,9 +7,9 @@ export class Person {
     return Math.floor(this.age * .24);
   }
 
-  //venYears() {
-    //return (this.age * .62);
- // }
+  venYears() {
+    return Math.floor(this.age * .62);
+  }
 
   //marsYears() {
    // return (this.age * 1.88);

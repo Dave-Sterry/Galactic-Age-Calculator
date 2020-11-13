@@ -17,7 +17,7 @@ export class Person {
     if (this.age > this.lifeExpect()){
       return (`Hey ${this.name} you are ${this.age - this.lifeExpect()} years past your life expectancy, nice work!`);
       } else if (this.age < this.lifeExpect()){
-        return (this.lifeExpect() - this.age);
+        return (`Hey ${this.name} you have ${this.lifeExpect() - this.age} years left to live on average`);
       }
     }
 

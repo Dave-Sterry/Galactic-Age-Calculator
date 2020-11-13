@@ -56,11 +56,11 @@ describe('Person', () => {
 
  test('should correctly return users years past or left expectancy', () =>
  {
-   expect(resuableHuman.beyondLife()).toEqual(71);
+   expect(resuableHuman.beyondLife()).toEqual("Hey jim you have 71 years left to live on average");
  });
 
 test('should correctly return users years past life expectancy' , () =>{
   let oldJim = new Person ("jim", 78,"male");
-  expect(oldJim.beyondLife()).toEqual(2);
+  expect(oldJim.beyondLife()).toEqual("Hey jim you are 2 years past your life expectancy, nice work!");
 })
 });
